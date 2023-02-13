@@ -4,5 +4,5 @@ fn main() {
         .filter(|num| num % 3 == 0 || num % 5 == 0)
         .sum();
 
-    println!("{}", res);
+    println!("Expected: {}, Actual: {}", 233168, res);
 }

@@ -15,5 +15,5 @@ fn main() {
         }
     }
 
-    println!("{}", even_sum);
+    println!("Expected: {}, Actual: {}", 4613732, even_sum);
 }
