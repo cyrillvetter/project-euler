@@ -1,5 +1,5 @@
 fn main() {
-    // TODO: Replace "Sieve of Erathosthenes" with another method to avoid creating a large sieve.
+    // TODO: Replace "Sieve of Eratosthenes" with another method to avoid creating a large sieve.
 
     let mut number = 600851475143;
     let n = f64::sqrt(number as f64) as usize + 1;
