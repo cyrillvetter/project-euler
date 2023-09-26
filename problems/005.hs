@@ -1,0 +1,1 @@
+main = print $ head $ dropWhile (\n -> any ((/= 0) . (n `mod`)) [2..20]) [1..]
