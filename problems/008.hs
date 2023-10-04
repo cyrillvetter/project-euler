@@ -1,8 +1,6 @@
 import Data.Char (digitToInt)
 
-main = do
-    number <- readFile "008.txt"
-    print . maximum $ map product $ windowsOf 13 $ map digitToInt $ concat $ lines number
+main = readFile "008.txt" >>= print . maximum . map product . windowsOf 13 . map digitToInt . concat . lines
 
 windowsOf :: Int -> [a] -> [[a]]
 windowsOf size list
